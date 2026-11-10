@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#111713">
+<meta name="description" content="ARCADIA WASTELAND — 2065 황무지 데이터베이스">
+<title>ARCADIA // WASTELAND ARCHIVE</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Noto+Sans+KR:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<div class="scanlines"></div>
+<header class="topbar">
+  <a class="brand" href="#home"><span class="brand-mark">A</span><span>ARCADIA <i>//</i> ARCHIVE</span></a>
+  <nav><button class="nav-btn active" data-page="home">OVERVIEW</button><button class="nav-btn" data-page="world">WORLD FILE</button><button class="nav-btn" data-page="personnel">PERSONNEL <b>08</b></button></nav>
+  <div class="status"><span class="pulse"></span> ARCHIVE ACCESS / OPEN</div>
+</header>
+<main>
+<section id="home" class="page active">
+  <div class="hero">
+    <div class="hero-bg"></div><div class="hero-content">
+      <div class="eyebrow">POST-COLLAPSE DATABASE <span>·</span> EST. 2030</div>
+      <h1>ARCADIA<br><em>WASTELAND</em></h1>
+      <p class="hero-copy">문명이 무너진 자리, 살아남은 자들의 기록.</p>
+      <div class="hero-meta"><span>YEAR <b>2065</b></span><span>REGION <b>ARCADIA</b></span><span>STATUS <b class="warn">UNSTABLE</b></span></div>
+      <button class="primary-btn" data-go="world">ACCESS WORLD FILE <span>↗</span></button>
+    </div><div class="hero-index">FILE NO. A-2065<br>CLASSIFICATION: RESTRICTED</div>
+  </div>
+  <div class="ticker"><span>WARNING</span> ETHereal CONTAMINATION DETECTED // GLOBAL NETWORK OFFLINE // TRUST NO UNKNOWN SIGNAL // SURVIVAL IS NOT GUARANTEED //</div>
+  <div class="section-head"><div><small>DATABASE DIRECTORY / 01</small><h2>ARCHIVE INDEX</h2></div><span>SELECT A FILE TO ACCESS</span></div>
+  <div class="index-grid">
+    <button class="index-card" data-go="world"><span class="idx">01 / WORLD</span><strong>WORLD<br>INFORMATION</strong><small>붕괴한 세계와 주요 구역, 생존 시스템</small><b class="arrow">↗</b></button>
+    <button class="index-card" data-go="personnel"><span class="idx">02 / PERSONNEL</span><strong>REGISTERED<br>PERSONS</strong><small>황무지 주요 인물 08명 데이터베이스</small><b class="arrow">↗</b></button>
+  </div>
+  <footer>ARCADIA WASTELAND DATABASE <span>UNAUTHORIZED ACCESS WILL BE LOGGED</span></footer>
+</section>
+
+<section id="world" class="page">
+  <div class="page-title"><div><small>DATABASE / WORLD FILE 001</small><h1>WORLD <em>INFORMATION</em></h1><p>2030년의 붕괴 이후, 2065년 아르카디아 황무지.</p></div><div class="file-stamp">FIELD<br>RECORD<br><b>2065</b></div></div>
+  <div class="world-intro"><div class="intro-no">01</div><div><h2>THE GREAT COLLAPSE</h2><p>2030년대, 원인 불명의 대규모 에테르 폭주와 지각 변동이 세계를 뒤흔들었다. 수백 층의 메가시티가 통째로 주저앉았고 국가와 법질서는 해체되었다. 재앙의 여파로 에테르 오염이 확산되며 선천적 능력자와 변이체가 출현하기 시작했다.</p></div></div>
+  <div class="section-head"><div><small>REGION / 01—04</small><h2>KEY LOCATIONS</h2></div><span>ARCADIA WASTELAND</span></div>
+  <div class="location-grid">
+    <article class="location"><div class="loc-no">01</div><div class="loc-icon">⚓</div><h3>철의 항구 <small>IRON HARBOR</small></h3><p>주저앉은 거대 항만과 방공호를 요새화한 다국적 무법항. 선술집, 정비소, 장물 거래소, 용병 길드 본부가 밀집한 상업·유흥 중심지.</p><span class="tag">TRADE / SAFE(ISH) ZONE</span></article>
+    <article class="location"><div class="loc-no">02</div><div class="loc-icon">⌁</div><h3>지하 <small>THE UNDERGROUND</small></h3><p>철근 콘크리트 폐허 밑바닥. 불법 투기장과 에테르 환각제 밀매, 블랙마켓이 판치는 음습한 무법지대.</p><span class="tag">BLACK MARKET / ILLEGAL</span></article>
+    <article class="location"><div class="loc-no">03</div><div class="loc-icon">▧</div><h3>고철 숲 <small>SCRAP FOREST</small></h3><p>항구 바깥의 마천루 폐허군. 변이체와 에테르 폭풍이 몰아치는 고위험 채굴 구역.</p><span class="tag danger">HIGH RISK / CONTAMINATED</span></article>
+    <article class="location"><div class="loc-no">04</div><div class="loc-icon">⌖</div><h3>하이에나 주둔지 <small>HYENA CAMP</small></h3><p>철의 항구 외곽 폐허에 자리한 용병 길드 본거지. 장갑차와 대형 트레일러로 원형 진지를 구축했으며 사격장, 창고, 정비소, 숙소가 있다.</p><span class="tag">MERCENARY BASE</span></article>
+  </div>
+  <div class="section-head"><div><small>POWER STRUCTURE / 02</small><h2>FACTIONS</h2></div><span>FOUR MAJOR POWERS</span></div>
+  <div class="faction-list">
+    <div><b>01</b><strong>이카루스 <small>ICARUS</small></strong><p>통제와 질서를 주도하는 거대 무장 연합. 요새 도시와 중무장 집행관, 감시탑을 운영한다.</p></div>
+    <div><b>02</b><strong>하이에나 <small>HYENA</small></strong><p>돈과 실리를 최우선으로 하는 거친 용병 길드. 팀장 제이슨 카터.</p></div>
+    <div><b>03</b><strong>블랙 마켓 <small>BLACK MARKET</small></strong><p>뒷골목 정보망과 거대 밀수 카르텔. 정보 브로커 강우진, 밀수업자 바이 첸 등이 활동한다.</p></div>
+    <div><b>04</b><strong>독립 세력 <small>INDEPENDENTS</small></strong><p>조직에 얽매이지 않고 각자의 목적을 위해 움직이는 용병, 정비공, 탐정, 특공대.</p></div>
+  </div>
+  <div class="split-panels">
+    <article class="info-panel"><small>SURVIVAL ECONOMY / 03</small><h2>WASTELAND ECONOMY</h2>
+      <dl><dt>데브리스 채굴</dt><dd>폐은행·연구소·군사기지에서 구시대 데이터칩, 정밀 부품, 희귀 금속을 채굴.</dd><dt>에테르 에너지</dt><dd>황무지 균열의 에테르를 정제해 무기 연료와 방사능 차단용 코어로 가공·유통.</dd><dt>밀수와 생존</dt><dd>생필품·의약품·무기 밀수. 인공 합성 식량과 암반수 정제권이 핵심 이권.</dd></dl>
+    </article>
+    <article class="info-panel"><small>ABILITY & CONTAMINATION / 04</small><h2>ETHER SYSTEM</h2>
+      <dl><dt>에테르 능력</dt><dd>문명 붕괴 이후 태어난 후손 세대(2030년 이후 출생)의 선천적 초능력.</dd><dt>오염 리스크</dt><dd>능력 과사용 또는 오염 구역 노출 시 신체·정신이 붕괴한다.</dd><dt>폭주 증상</dt><dd>피부의 검은 결정, 에테르 불꽃 잔여 파장, 환각 및 폭주 위험.</dd><dt>응급 억제</dt><dd>변이체가 된 뒤에는 치료 불가. 변이 직전에는 암시장 억제제나 특수 정화 기어로 오염 수치를 낮출 수 있다.</dd></dl>
+    </article>
+  </div>
+  <div class="warning-panel"><b>⚠ MUTANT WARNING</b><p>변이체는 에테르 폭주로 신체가 일그러지고 이성을 잃은 식인 생명체다. 원래 인간이었으나 오염으로 식인 본능과 공격성만 남은 황무지 최대의 위협.</p></div>
+  <div class="world-intro comms"><div class="intro-no">05</div><div><h2>COMMUNICATION & DATA CHIPS</h2><p>글로벌 인터넷·중앙 통신망·게임 서버는 전멸했다. 온라인 검색과 대용량 전송은 불가능하며 근거리 사설 무전, 암호화 텍스트 메시지, 전술 좌표 핑만 사용한다. 구시대의 문서·설계도·정보는 데이터칩을 단말기나 기계 슬롯에 직접 꽂아 열람한다.</p></div></div>
+  <footer>ARCADIA WASTELAND DATABASE <span>END OF WORLD FILE</span></footer>
+</section>
+
+<section id="personnel" class="page">
+  <div class="page-title"><div><small>DATABASE / PERSONNEL FILE 002</small><h1>REGISTERED <em>PERSONS</em></h1><p>아르카디아 황무지 주요 인물 기록. 카드를 선택해 상세 정보를 확인하십시오.</p></div><div class="file-stamp">RECORDS<br>AVAILABLE<br><b>08 / 08</b></div></div>
+  <div class="personnel-toolbar"><div><span class="pulse"></span> PERSONNEL INDEX / 08 RECORDS</div><div class="filters"><button class="filter active" data-filter="all">ALL</button><button class="filter" data-filter="이카루스">ICARUS</button><button class="filter" data-filter="하이에나">HYENA</button><button class="filter" data-filter="블랙 마켓">BLACK MARKET</button><button class="filter" data-filter="독립 세력">INDEPENDENT</button></div></div>
+  <div id="character-grid" class="character-grid"></div>
+  <footer>ARCADIA WASTELAND DATABASE <span>SELECT PERSONNEL CARD TO OPEN FILE</span></footer>
+</section>
+</main>
+<div id="modal" class="modal" aria-hidden="true">
+  <div class="modal-backdrop" data-close></div>
+  <article class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modal-name">
+    <button class="modal-close" data-close aria-label="프로필 닫기">×</button>
+    <div class="modal-image-wrap"><img id="modal-image" alt=""><div class="image-overlay"></div><div class="image-label">PERSONNEL / VERIFIED</div></div>
+    <div class="modal-content">
+      <div class="modal-kicker" id="modal-roman"></div><h2 id="modal-name"></h2>
+      <div class="modal-role" id="modal-role"></div>
+      <div class="quick-stats" id="modal-stats"></div>
+      <div class="profile-section"><h3>01 / APPEARANCE</h3><p id="modal-appearance"></p></div>
+      <div class="profile-section"><h3>02 / PERSONALITY</h3><div id="modal-personality"></div></div>
+      <div class="profile-section"><h3>03 / SPEECH PATTERN</h3><p id="modal-speech"></p></div>
+      <div class="profile-section"><h3>04 / BACKGROUND</h3><p id="modal-background"></p></div>
+      <div class="ability-box"><div><small>ETHER ABILITY</small><h3 id="modal-ability"></h3></div><p id="modal-ability-detail"></p></div>
+      <div class="profile-section secret-section" id="secret-section"><h3>05 / ADDITIONAL RECORD</h3><p id="modal-secret"></p><p id="modal-extra"></p></div>
+      <div class="modal-foot">END OF PERSONNEL RECORD <span>ARCADIA / 2065</span></div>
+    </div>
+  </article>
+</div>
+<script src="characters.js"></script><script src="assets/js/app.js"></script>
+</body></html>
